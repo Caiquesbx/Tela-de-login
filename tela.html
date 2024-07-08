@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tela.css">
+    <title>Tela de login do Caique 2.0 S2</title>
+</head>
+<body>
+
+    <div class="Tela">
+        <h1>Login</h1>
+        <div class="input">
+            <input id="inputUm" type="text" placeholder="Usuário" required> 
+        </div>
+        <div class="input">
+            <input id="inputDois" type="password" placeholder="Senha" required>
+        </div>
+
+
+        <div class="Lembrar">
+            <label><input type="checkbox"> Lembrar de mim</label>
+            <a href="#">Esqueceu a senha?</a>
+        </div>
+
+        <button onclick="enviar" type="submit" class="bt">Acessar</button>
+        <div class="Registro">
+            <p>Não tem uma conta? <a href="#">Criar uma conta</a></p>
+        </div>
+
+        <form>
+            <div class="im">
+                <br>
+              <p class="center">Como prefere o nosso contato?</p>
+              <br>
+                <input type="radio" name="contato" value="email" id="radio-email" onchange="aoSelecionarInput(event)"> Email    
+
+
+                <input type="radio" name="contato" value="telefone" id="radio-telefone" onchange="aoSelecionarInput(event)"> Telefone
+            </div>
+          <form>
+            <br><br>
+            <div class="termos">
+                    <label><input type="checkbox"> Li e aceito os termos de uso</label>
+            </div>
+    </div>
+    
+    <script src="tela02.js"></script>
+
+</body>
+</html>
