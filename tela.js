@@ -1,14 +1,14 @@
 function logar(){
     var login = document.getElementById('inputUm').value;
     var senha = document.getElementById('inputDois').value;
-    if (login == "caique_barbosa" && senha == "Patasso10"){
+    if (login == "" && senha == ""){
         alert('Sucesso');
         location.href = "site.html";
     }else {
         alert('Usuário ou senha incorretos');
     }
 
-    if (login == "quintoandar" && senha == "quintoandar"){
+    if (login == "" && senha == ""){
         alert('Sucesso')
         location.href = "site.html";
     }else{}
